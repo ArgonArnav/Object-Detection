@@ -1,4 +1,4 @@
-# Automatic License Plate Detection & Recognition using deep learning
+# Automatic License Plate Detection using Deep Learning
 
 install requirement
 ````
