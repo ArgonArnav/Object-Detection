@@ -27,27 +27,7 @@ OpenCV `dnn` module supports running inference on pre-trained deep learning mode
 * Matplotlib
 * Pillow
 
-Development for this project will be isolated in Python virtual environment. This allows us to experiment with different versions of dependencies.
-
-There are many ways to install `virtual environment (virtualenv)`, see the [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/) guide for different platforms, but here are a couple:
-
-- For Ubuntu
-```bash
-$ pip install virtualenv
-```
-
-- For Mac
-```bash
-$ pip install --upgrade virtualenv
-```
-
-Create a Python 3.6 virtual environment for this project and activate the virtualenv:
-```bash
-$ virtualenv -p python3.6 yoloface
-$ source ./yoloface/bin/activate
-```
-
-Next, install the dependencies for the this project:
+Install the dependencies for the this project:
 ```bash
 $ pip install -r requirements.txt
 ```
@@ -75,5 +55,5 @@ $ python yoloface.py --video samples/subway.mp4 --output-dir outputs/
 
 >**webcam**
 ```bash
-$ python yoloface.py --src 1 --output-dir outputs/
-```
+$ python yoloface.py 
+``
