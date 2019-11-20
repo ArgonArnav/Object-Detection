@@ -1,26 +1,10 @@
-# *******************************************************************
-#
-# Author : Thanh Nguyen, 2018
-# Email  : sthanhng@gmail.com
-# Github : https://github.com/sthanhng
-#
-# BAP, AI Team
-# Face detection using the YOLOv3 algorithm
-#
-# Description : utils.py
 # This file contains the code of the parameters and help functions
-#
-# *******************************************************************
-
 
 import datetime
 import numpy as np
 import cv2
 
-# -------------------------------------------------------------------
 # Parameters
-# -------------------------------------------------------------------
-
 CONF_THRESHOLD = 0.5
 NMS_THRESHOLD = 0.4
 IMG_WIDTH = 416
@@ -33,10 +17,7 @@ COLOR_RED = (0, 0, 255)
 COLOR_WHITE = (255, 255, 255)
 COLOR_YELLOW = (0, 255, 255)
 
-
-# -------------------------------------------------------------------
 # Help functions
-# -------------------------------------------------------------------
 
 # Get the names of the output layers
 def get_outputs_names(net):
